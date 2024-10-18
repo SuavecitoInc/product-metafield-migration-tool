@@ -4,6 +4,8 @@ import { readFile } from "fs/promises";
 import { fileURLToPath } from "url";
 import type { MigrationConfig } from "./lib";
 
+// reads the metafield identifiers from a JSON file,
+// if the file is not found, it will return an empty array for both product and variant
 const readJSON = async (filename: string) => {
   try {
     const __dirname = path.dirname(fileURLToPath(import.meta.url));
