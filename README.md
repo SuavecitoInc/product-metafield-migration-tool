@@ -13,7 +13,7 @@ Features:
 
 ### Metafield Type Support
 
-The only metafield reference supported is of type MediaImages. So a Metafield that holds an image or a list of images is supported. Any other reference type is not supported. All other Metafield values that aren't references are supported. The Metafield list type is also supported.
+The only supported metafield reference type is MediaImages, meaning metafields containing an image or a list of images are accepted. Other reference types are not supported. However, all non-reference metafield values and the metafield list type are supported.
 
 ## Usage
 
@@ -37,11 +37,11 @@ The Product and Product Variant Metafield Identifiers will be auto generated and
 
 ### Installation
 
-Clone the repo, run npm install, and make sure to fill out the .env according to the example and config with the Metafields you want to copy over to your new store.
+Clone the repository, run npm install, and ensure you fill out the .env file following the provided example.
 
 ### Run
 
-Create Metafield Definitions. This will also generate the Metafield Identifiers required for the migration.
+Create Metafield Definitions, which will also generate the necessary Metafield Identifiers for the migration process.
 
 ```bash
 npm run create
@@ -55,7 +55,6 @@ npm run migrate
 
 ## Logs
 
-The Metafield Definition creation script will output any errors to `progress-logs/create-metafield-definition-errors.csv`.
+The Metafield Definition creation script logs any errors in progress-logs/create-metafield-definition-errors.csv.
 
-The migration script will run and output the product metafield status in progress-logs/progress.csv in CSV format. There is a console-output_migrate.txt with standard output logs.
-This way you can see the mutations called in the destination store via the admin api.
+The migration script tracks the product metafield status and saves the output in progress-logs/progress.csv in CSV format. Additionally, a console-output_migrate.txt file contains standard output logs, allowing you to view the mutations performed in the destination store via the admin API.
