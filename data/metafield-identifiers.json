@@ -1,0 +1,402 @@
+{
+  "product": [
+    {
+      "namespace": "debut",
+      "key": "product_subtitle"
+    },
+    {
+      "namespace": "debut",
+      "key": "default_lifestyle_image_1"
+    },
+    {
+      "namespace": "debut",
+      "key": "default_lifestyle_image_2"
+    },
+    {
+      "namespace": "debut",
+      "key": "default_lifestyle_image_3"
+    },
+    {
+      "namespace": "debut",
+      "key": "default_lifestyle_image_4"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_featured_image_1"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_featured_image_2"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_product_description"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_how_to"
+    },
+    {
+      "namespace": "debut",
+      "key": "video_embed"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_1_image"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_1_text"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_2_image"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_2_text"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_3_image"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_3_text"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_4_image"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_4_text"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_how_to_image"
+    },
+    {
+      "namespace": "debut",
+      "key": "show_section_description"
+    },
+    {
+      "namespace": "debut",
+      "key": "show_section_how_to"
+    },
+    {
+      "namespace": "debut",
+      "key": "show_section_looks_inspire"
+    },
+    {
+      "namespace": "debut",
+      "key": "product_size_chart_type"
+    },
+    {
+      "namespace": "debut",
+      "key": "apparel_fit"
+    },
+    {
+      "namespace": "debut",
+      "key": "apparel_material"
+    },
+    {
+      "namespace": "debut",
+      "key": "apparel_color"
+    },
+    {
+      "namespace": "debut",
+      "key": "apparel_logo_front"
+    },
+    {
+      "namespace": "debut",
+      "key": "apparel_logo_back"
+    },
+    {
+      "namespace": "debut",
+      "key": "default_lifestyle_image_5"
+    },
+    {
+      "namespace": "debut",
+      "key": "default_lifestyle_image_6"
+    },
+    {
+      "namespace": "debut",
+      "key": "default_lifestyle_image_7"
+    },
+    {
+      "namespace": "debut",
+      "key": "default_lifestyle_image_8"
+    },
+    {
+      "namespace": "debut",
+      "key": "product_features"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_1"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_2"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_3"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_4"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_5"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_6"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_variant_1"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_variant_2"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_variant_3"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_variant_4"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_variant_5"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_variant_6"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_variant_7"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_variant_8"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_variant_9"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_product_variant_10"
+    },
+    {
+      "namespace": "debut",
+      "key": "product_fragrance_profile"
+    },
+    {
+      "namespace": "debut",
+      "key": "product_best_for_description"
+    },
+    {
+      "namespace": "debut",
+      "key": "product_size"
+    },
+    {
+      "namespace": "debut",
+      "key": "subscription_box_features"
+    },
+    {
+      "namespace": "debut",
+      "key": "exclude_from_subscription_box"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_1_text_es"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_2_text_es"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_3_text_es"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_list_item_4_text_es"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_product_description_es"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_how_to_image_es"
+    },
+    {
+      "namespace": "debut",
+      "key": "section_how_to_es"
+    },
+    {
+      "namespace": "debut",
+      "key": "video_embed_es"
+    },
+    {
+      "namespace": "debut",
+      "key": "spanish_features"
+    },
+    {
+      "namespace": "debut",
+      "key": "show_pomade_compare_chart"
+    }
+  ],
+  "variant": [
+    {
+      "namespace": "debut",
+      "key": "variant_image_1"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_image_2"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_image_3"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_image_4"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_lifestyle_image_1"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_lifestyle_image_2"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_lifestyle_image_3"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_lifestyle_image_4"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_fragrance_profile"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_color_image"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_transparent_image"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_description"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_title"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_features"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_best_for_description"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_size"
+    },
+    {
+      "namespace": "debut",
+      "key": "exclude_from_subscription_box"
+    },
+    {
+      "namespace": "debut",
+      "key": "subscription_box_features"
+    },
+    {
+      "namespace": "debut",
+      "key": "exclude_variant_online"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_fragrance_profile_es"
+    },
+    {
+      "namespace": "debut",
+      "key": "is_bogo"
+    },
+    {
+      "namespace": "debut",
+      "key": "is_b2g1f"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_image_5"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_image_6"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_image_7"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_video"
+    },
+    {
+      "namespace": "debut",
+      "key": "kit_components"
+    },
+    {
+      "namespace": "debut",
+      "key": "coming_soon"
+    },
+    {
+      "namespace": "debut",
+      "key": "features_spanish"
+    },
+    {
+      "namespace": "debut",
+      "key": "variant_edition_disclaimer"
+    },
+    {
+      "namespace": "debut",
+      "key": "named_sale_badge"
+    },
+    {
+      "namespace": "debut",
+      "key": "tres_noir_glasses_information"
+    },
+    {
+      "namespace": "debut",
+      "key": "enable_bsub"
+    },
+    {
+      "namespace": "debut",
+      "key": "enable_b2g1f"
+    },
+    {
+      "namespace": "debut",
+      "key": "disable_sale_badge"
+    }
+  ]
+}

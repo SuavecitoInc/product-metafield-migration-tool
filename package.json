@@ -1,0 +1,26 @@
+{
+  "name": "metafield-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "create": "node --experimental-specifier-resolution=node --loader ts-node/esm.mjs ./src/create.ts | tee ./progress-logs/console-output_create.txt",
+    "migrate": "node --experimental-specifier-resolution=node --loader ts-node/esm.mjs ./src/migrate.ts | tee ./progress-logs/console-output_migrate.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.2.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.0",
+    "@types/node": "^20.4.1",
+    "nodemon": "^3.0.1"
+  }
+}
