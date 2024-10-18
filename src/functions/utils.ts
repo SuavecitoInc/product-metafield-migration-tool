@@ -1,7 +1,3 @@
-/**
- * This file contains util functions used for fetching or parsing data
- */
-
 import { migrationConfig, creationConfig } from "../config";
 import fetch from "node-fetch";
 import * as CSVWriter from "csv-writer";

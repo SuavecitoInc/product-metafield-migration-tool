@@ -3,7 +3,7 @@ import {
   getMetafieldDefinitions,
   exportMetafieldDefConfig,
   createMetafieldDefinition,
-} from "./functions/metafield-definition";
+} from "./functions";
 import { checkCreationConfig } from "./functions/utils";
 
 async function runCreateMetafieldDefinitions() {
@@ -25,40 +25,40 @@ async function runCreateMetafieldDefinitions() {
     "debut"
   );
 
-  // creates the config to be used in the migration script
+  // creates the metafield identifiers to be used in the migration script
   exportMetafieldDefConfig(productMetafields, variantMetafields);
 
-  // if (productMetafields) {
-  //   const productMetafieldPromises = productMetafields.map((metafield) =>
-  //     createMetafieldDefinition({
-  //       ...metafield.definition,
-  //       type: metafield.definition.type.name,
-  //     })
-  //   );
-  //   const createdProductMetafieldDefs = await Promise.all(
-  //     productMetafieldPromises
-  //   );
-  //   console.log(
-  //     "Created product metafields",
-  //     createdProductMetafieldDefs.filter((val) => val).length
-  //   );
-  // }
+  if (productMetafields) {
+    const productMetafieldPromises = productMetafields.map((metafield) =>
+      createMetafieldDefinition({
+        ...metafield.definition,
+        type: metafield.definition.type.name,
+      })
+    );
+    const createdProductMetafieldDefs = await Promise.all(
+      productMetafieldPromises
+    );
+    console.log(
+      "Created product metafields",
+      createdProductMetafieldDefs.filter((val) => val).length
+    );
+  }
 
-  // if (variantMetafields) {
-  //   const variantMetafieldPromises = variantMetafields.map((metafield) =>
-  //     createMetafieldDefinition({
-  //       ...metafield.definition,
-  //       type: metafield.definition.type.name,
-  //     })
-  //   );
-  //   const createdVariantMetafieldDefs = await Promise.all(
-  //     variantMetafieldPromises
-  //   );
-  //   console.log(
-  //     "Created variant metafields",
-  //     createdVariantMetafieldDefs.filter((val) => val).length
-  //   );
-  // }
+  if (variantMetafields) {
+    const variantMetafieldPromises = variantMetafields.map((metafield) =>
+      createMetafieldDefinition({
+        ...metafield.definition,
+        type: metafield.definition.type.name,
+      })
+    );
+    const createdVariantMetafieldDefs = await Promise.all(
+      variantMetafieldPromises
+    );
+    console.log(
+      "Created variant metafields",
+      createdVariantMetafieldDefs.filter((val) => val).length
+    );
+  }
 }
 
 runCreateMetafieldDefinitions();
