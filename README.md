@@ -33,7 +33,7 @@ DESTINATION_SHOPIFY_API_VERSION=2023-04
 
 The Product and Product Variant Metafield Identifiers will be auto generated and found in `./data/metafield-identifiers.json`.
 
-** The suggested Shopify admin and storefront api version is 2024-04 for this script!!!! **
+** The suggested Shopify admin and storefront api version is 2025-07 for this script!!!! **
 
 ### Installation
 
