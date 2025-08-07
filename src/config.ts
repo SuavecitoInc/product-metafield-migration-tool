@@ -62,7 +62,7 @@ export const creationConfig = {
       apiKey: process.env.SOURCE_SHOPIFY_ADMIN_KEY as string,
       storename: process.env.SOURCE_SHOPIFY_STOREFRONT_NAME as string,
       apiVersion:
-        (process.env.SOURCE_SHOPIFY_API_VERSION as string) || "2024-10",
+        (process.env.SOURCE_SHOPIFY_API_VERSION as string) || "2025-07",
     },
   },
   destination: {
@@ -70,7 +70,7 @@ export const creationConfig = {
       apiKey: process.env.DESTINATION_SHOPIFY_ADMIN_KEY as string,
       storename: process.env.DESTINATION_SHOPIFY_STOREFRONT_NAME as string,
       apiVersion:
-        (process.env.DESTINATION_SHOPIFY_API_VERSION as string) || "2024-10",
+        (process.env.DESTINATION_SHOPIFY_API_VERSION as string) || "2025-07",
     },
   },
 };

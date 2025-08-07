@@ -79,7 +79,7 @@ export const migrateMetafields = async (
       handle: srcProduct.handle,
     });
     if (!res.data) {
-      console.error("Error destruturing data on response", res);
+      console.error("Error destructuring data on response", res);
       return;
     }
     const { data } = res;

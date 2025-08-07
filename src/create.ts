@@ -19,10 +19,13 @@ async function runCreateMetafieldDefinitions() {
   console.log("Starting metafield creation.");
   console.log("Getting metafields from source store.");
   // get metafield definitions
-  const productMetafields = await getMetafieldDefinitions("PRODUCT", "debut");
+  const productMetafields = await getMetafieldDefinitions(
+    "PRODUCT",
+    "suavecito"
+  );
   const variantMetafields = await getMetafieldDefinitions(
     "PRODUCTVARIANT",
-    "debut"
+    "suavecito"
   );
 
   // creates the metafield identifiers to be used in the migration script
